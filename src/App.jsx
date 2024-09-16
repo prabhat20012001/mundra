@@ -40,7 +40,7 @@ function App() {
             <Route path="/" element={<BirthdayPage/>} />
             <Route path="/planning" element={<ProjectPlanning />} />
             <Route path="/concrete" element={<ConcreteRequirement />} />
-            {/* <Route path="/birthday" element={<BirthdayPage />} /> New Route */}
+            <Route path="/birthday" element={<BirthdayPage />} /> New Route
           </Routes>
         </div>
       </div>
