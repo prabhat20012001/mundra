@@ -1,5 +1,5 @@
 import React from 'react';
-import khuswantPic from "../assets/Khuswant.jpg" // Add the picture in the assets folder
+import khuswantPic from "../assets/Khuswant.jpg"; // Path is relative to `src/components/`
 import { FaGift, FaBirthdayCake } from 'react-icons/fa'; // FaGift and FaBirthdayCake are correct imports
 
 function BirthdayPage() {
