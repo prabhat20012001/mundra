@@ -37,10 +37,10 @@ function App() {
         {/* Routes */}
         <div className="container mx-auto p-4">
           <Routes>
-            <Route path="/" element={<AdminDashboard />} />
+            <Route path="/" element={<BirthdayPage/>} />
             <Route path="/planning" element={<ProjectPlanning />} />
             <Route path="/concrete" element={<ConcreteRequirement />} />
-            <Route path="/birthday" element={<BirthdayPage />} /> {/* New Route */}
+            {/* <Route path="/birthday" element={<BirthdayPage />} /> New Route */}
           </Routes>
         </div>
       </div>
